@@ -63,7 +63,7 @@ while True:
 
         escolha = input("Escolha um número para comprar ou '4' para sair:\n>")
 
-        opcoes = {"1": "Poção de Vida", "2": "Espada", "3": "Armadura"}
+        opcoes = {"1": "Poção de vida", "2": "Espada", "3": "Armadura"}
 
         if escolha in opcoes:
             item = opcoes[escolha]
